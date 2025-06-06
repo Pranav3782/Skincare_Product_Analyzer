@@ -7,7 +7,7 @@ from langchain_groq import ChatGroq
 from langchain.schema import HumanMessage
 
 # Set the Tesseract OCR path (Windows only)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+#pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Setup LLaMA via Groq
 llm = ChatGroq(
